@@ -1,3 +1,4 @@
+// Trabajo realizado por  David Carmona 
 package batlleship;
 import javax.swing.JFrame;
 import java.awt.*;
@@ -668,7 +669,8 @@ public class Batlleship extends JFrame {
         getBarcoCompara()[linea][columna+2]=1;
         
     }
-    
+    // Trabajo realizado por  David Carmona 
+
    //lecturas de archivos 
     public  void LeerArch()throws IOException, EOFException,ClassNotFoundException
    {
@@ -750,3 +752,4 @@ public class Batlleship extends JFrame {
     public void setBarcoCompara(int[][] barcoCompara){this.barcoCompara = barcoCompara;}   
     
 }
+// Trabajo realizado por  David Carmona 
